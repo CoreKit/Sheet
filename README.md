@@ -5,7 +5,11 @@ A discardable action sheet.
 ## Usage
 
 ```
-pod repo add corekit git@github.com:CoreKit/CocoaPods.git
+pod repo add corekit https://github.com/CoreKit/Sheet.git
+
+source 'https://github.com/CoreKit/CocoaPods.git'
+pod 'Sheet'
+
 ```
 
 ## Pod cheatsheet
