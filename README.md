@@ -1,4 +1,4 @@
-# CoreKit Sheet
+# Sheet
 
 A discardable action sheet.
 
