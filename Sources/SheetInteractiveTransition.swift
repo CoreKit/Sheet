@@ -6,6 +6,8 @@
 //  Copyright © 2018. Tibor Bödecs. All rights reserved.
 //
 
+import UIKit
+
 class SheetInteractiveTransition: UIPercentDrivenInteractiveTransition, UIGestureRecognizerDelegate {
 
     private var currentPercentage: CGFloat = -1

@@ -6,6 +6,8 @@
 //  Copyright © 2018. Tibor Bödecs. All rights reserved.
 //
 
+import UIKit
+
 open class SheetViewController: UIViewController, UIGestureRecognizerDelegate {
 
     public weak var contentView: ContinuousCornerView!

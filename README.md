@@ -2,23 +2,13 @@
 
 A discardable action sheet.
 
-## Usage
+## Installation
+
+### Swift Package Manager
 
 ```
-pod repo add corekit https://github.com/CoreKit/Sheet.git
+.package(url: "https://github.com/CoreKit/Sheet", from: "2.0.0"),
 
-source 'https://github.com/CoreKit/CocoaPods.git'
-pod 'Sheet'
-
-```
-
-## Pod cheatsheet
-
-```
-pod lib lint Sheet.podspec 
-git tag 1.0.0
-git push --tags
-pod repo push corekit Sheet.podspec
 ```
 
 ## License

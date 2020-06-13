@@ -6,6 +6,8 @@
 //  Copyright © 2018. Tibor Bödecs. All rights reserved.
 //
 
+import UIKit
+
 open class ContinuousCornerView: UIView {
 
     open override var bounds: CGRect {

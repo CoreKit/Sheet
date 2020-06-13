@@ -3,36 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		166DC0C92494F18A00E75C02 /* Sheet in Frameworks */ = {isa = PBXBuildFile; productRef = 166DC0C82494F18A00E75C02 /* Sheet */; };
 		16FCB5A721F277690071404B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FCB5A621F277690071404B /* AppDelegate.swift */; };
 		16FCB5A921F277690071404B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FCB5A821F277690071404B /* ViewController.swift */; };
 		16FCB5AC21F277690071404B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FCB5AA21F277690071404B /* Main.storyboard */; };
 		16FCB5AE21F277690071404B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FCB5AD21F277690071404B /* Assets.xcassets */; };
 		16FCB5B121F277690071404B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FCB5AF21F277690071404B /* LaunchScreen.storyboard */; };
 		16FCB5B921F2777A0071404B /* MySheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FCB5B821F2777A0071404B /* MySheetViewController.swift */; };
-		16FCB5C021F277FA0071404B /* Sheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FCB5BF21F277F40071404B /* Sheet.framework */; };
-		16FCB5C121F277FA0071404B /* Sheet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 16FCB5BF21F277F40071404B /* Sheet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		16FCB5BE21F277F40071404B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 16FCB5BA21F277F40071404B /* Sheet.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 16676D4C21F263F600DD600C;
-			remoteInfo = Sheet;
-		};
-		16FCB5C221F277FA0071404B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 16FCB5BA21F277F40071404B /* Sheet.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 16676D4B21F263F600DD600C;
-			remoteInfo = Sheet;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		16FCB5C421F277FA0071404B /* Embed Frameworks */ = {
@@ -41,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				16FCB5C121F277FA0071404B /* Sheet.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		166DC0C62494F18200E75C02 /* Sheet */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sheet; path = ..; sourceTree = "<group>"; };
 		16FCB5A321F277690071404B /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FCB5A621F277690071404B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16FCB5A821F277690071404B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +39,6 @@
 		16FCB5B021F277690071404B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16FCB5B221F277690071404B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16FCB5B821F2777A0071404B /* MySheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySheetViewController.swift; sourceTree = "<group>"; };
-		16FCB5BA21F277F40071404B /* Sheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sheet.xcodeproj; path = ../Sheet.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,19 +46,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FCB5C021F277FA0071404B /* Sheet.framework in Frameworks */,
+				166DC0C92494F18A00E75C02 /* Sheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		166DC0C72494F18A00E75C02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		16FCB59A21F277690071404B = {
 			isa = PBXGroup;
 			children = (
-				16FCB5BA21F277F40071404B /* Sheet.xcodeproj */,
+				166DC0C62494F18200E75C02 /* Sheet */,
 				16FCB5A521F277690071404B /* Example */,
 				16FCB5A421F277690071404B /* Products */,
+				166DC0C72494F18A00E75C02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,14 +92,6 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		16FCB5BB21F277F40071404B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				16FCB5BF21F277F40071404B /* Sheet.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +107,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				16FCB5C321F277FA0071404B /* PBXTargetDependency */,
 			);
 			name = Example;
+			packageProductDependencies = (
+				166DC0C82494F18A00E75C02 /* Sheet */,
+			);
 			productName = Example;
 			productReference = 16FCB5A321F277690071404B /* Example.app */;
 			productType = "com.apple.product-type.application";
@@ -159,28 +142,12 @@
 			mainGroup = 16FCB59A21F277690071404B;
 			productRefGroup = 16FCB5A421F277690071404B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 16FCB5BB21F277F40071404B /* Products */;
-					ProjectRef = 16FCB5BA21F277F40071404B /* Sheet.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				16FCB5A221F277690071404B /* Example */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		16FCB5BF21F277F40071404B /* Sheet.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Sheet.framework;
-			remoteRef = 16FCB5BE21F277F40071404B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		16FCB5A121F277690071404B /* Resources */ = {
@@ -207,14 +174,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		16FCB5C321F277FA0071404B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Sheet;
-			targetProxy = 16FCB5C221F277FA0071404B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		16FCB5AA21F277690071404B /* Main.storyboard */ = {
@@ -287,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -342,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -358,7 +317,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XL2GSHMUDQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -366,7 +325,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiborbodecs.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -377,7 +336,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XL2GSHMUDQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,7 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiborbodecs.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -412,6 +371,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		166DC0C82494F18A00E75C02 /* Sheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Sheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 16FCB59B21F277690071404B /* Project object */;
 }
