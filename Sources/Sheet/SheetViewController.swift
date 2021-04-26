@@ -5,7 +5,7 @@
 //  Created by Tibor Bödecs on 2018. 03. 24..
 //  Copyright © 2018. Tibor Bödecs. All rights reserved.
 //
-
+#if(canImport(UIKit))
 import UIKit
 
 open class SheetViewController: UIViewController, UIGestureRecognizerDelegate {
@@ -234,3 +234,4 @@ extension SheetViewController {
         }, completion: nil)
     }
 }
+#endif

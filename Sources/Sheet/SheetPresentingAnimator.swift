@@ -5,7 +5,7 @@
 //  Created by Tibor Bödecs on 2018. 03. 24..
 //  Copyright © 2018. Tibor Bödecs. All rights reserved.
 //
-
+#if(canImport(UIKit))
 import UIKit
 
 protocol SheetPushAnimatorDelegate {
@@ -51,3 +51,4 @@ class SheetPushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
         }
     }
 }
+#endif

@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
@@ -10,7 +10,6 @@ let package = Package(
         .library(name: "Sheet", targets: ["Sheet"]),
     ],
     targets: [
-        .target(name: "Sheet", dependencies: [], path: "./Sources"),
-        //.testTarget(name: "CollectionViewTests", dependencies: ["Sheet"]),
+        .target(name: "Sheet"),
     ]
 )
